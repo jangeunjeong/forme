@@ -1,0 +1,4 @@
+structure (Addr) {
+  description (주소)
+  role-of(geo.GeocodedAddress)
+}

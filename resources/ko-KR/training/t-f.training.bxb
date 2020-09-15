@@ -1,0 +1,10 @@
+train (t-fls4q84doyoxmawb4mer0qjau) {
+  utterance ("[g:informationFood] 먹어도 돼 (핫초코)[v:Food]")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572346468066)
+}
+train (t-fwlh427avy14tcquk332w8inn) {
+  utterance ("[g:GetCityPharmacyInfo] (제주도)[v:City] (제주시)[v:Sigungu]에서 (약국)[v:Pharmacyvocab] 좀 (찾아)[v:Searchword:Searchwords]줘")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040653792)
+}

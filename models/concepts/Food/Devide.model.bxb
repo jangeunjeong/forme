@@ -1,0 +1,6 @@
+boolean (Devide) {
+  description (information1으로 들어갈지 information2로 들어갈지 정해줌)
+    features {
+    transient
+  }
+}

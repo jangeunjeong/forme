@@ -1,0 +1,11 @@
+action (InsertMens) {
+  type(Search)
+  description (월경시작일 저장하기)
+  collect {
+    input (mens_startdate) {
+      type (time.DateTimeExpression)
+      min (Required) max (One)
+    }
+  }
+  output (Menstruation_info)
+}

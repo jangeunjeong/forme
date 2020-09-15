@@ -1,0 +1,25 @@
+train (t-s4yivhp8ev653twbe9utlcg66) {
+  utterance ("[g:GetPadsInfo] (생리대)[v:Pad] (필요)[v:Order:Orders]")
+  plan (Y2BhEEzLL6rML9UDUrmpegGJKcUMEihC7qklIFHPvLR8BiEUGf+ilNQiBgF0AxiYGRgZmIAkA5AGQQiAiwIA)
+  last-modified (1573035737405)
+}
+train (t-smqvy5kmribgcnqngfih2ihip) {
+  utterance ("[g:informationFood] (고구마)[v:Food] 섭취해도 돼")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572343621854)
+}
+train (t-su89i14utyx8ycry8zprdtdew) {
+  utterance ("[g:EndMens] (10월 29일)[v:time.DateTimeExpression]에 끝이 났어")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1572343881079)
+}
+train (t-suuu4hd3a8w8ip95sic2qibpd) {
+  utterance ("[g:informationFood] (쑥)[v:Food]은 먹어도 돼")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356917638)
+}
+train (t-szovpm2il9oax98pbxkxobi0d) {
+  utterance ("[g:EndMens] (오늘)[v:time.DateTimeExpression] 끝")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1572343981214)
+}

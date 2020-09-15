@@ -1,0 +1,14 @@
+result-view {
+ match : Pads(this)
+
+  message {
+    template ("다음과 같은 사이트목록이 있습니다.")
+  }
+ render {
+   layout-macro (PadsList) {
+     param (pads) {
+       expression (this) 
+     }
+   }
+ }
+}

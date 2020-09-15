@@ -1,0 +1,15 @@
+train (t-a7zykfaa8h9hfaioo7mjl53ny) {
+  utterance ("[g:GetCityPharmacyInfo] (전라북도)[v:City] (전주시)[v:Sigungu]에서 (약국)[v:Pharmacyvocab] (찾아)[v:Searchword:Searchwords]주라")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040640750)
+}
+train (t-aoj7m3qbxeeoyfnywocvuqb6b) {
+  utterance ("[g:GetCityOAGInfo] 이 (근처)[v:City] (병원)[v:OAGvocab:OAGvocabs] (보여)[v:Searchword:Searchwords]줄래")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573036312838)
+}
+train (t-atmqvnjhae4mqg14uiyrv0k8f) {
+  utterance ("[g:informationFood] (딸기)[v:Food] 좀 먹을 수 있을까")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356951683)
+}

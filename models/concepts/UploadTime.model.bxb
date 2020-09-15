@@ -1,0 +1,7 @@
+structure (UploadTime) {
+  description (영상이 올라온 시간)
+  role-of (time.DateTimeExpression)
+  features {
+    transient
+  }
+}

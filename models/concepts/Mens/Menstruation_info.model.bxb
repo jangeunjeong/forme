@@ -1,0 +1,18 @@
+structure (Menstruation_info) {
+  description (월경 시작일 , 마지막일 저장)
+  property (user_id) {
+    type (User_id)
+    min (Required) max (One)
+  }
+  property (mens_startdate) {
+    type (Mens_startdate)
+    min (Required) max (One)
+  }
+  property (mens_enddate) {
+    type (Mens_enddate)
+    min (Optional) max (One)
+  }
+    features {
+    transient
+  }
+}

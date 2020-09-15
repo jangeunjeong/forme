@@ -1,0 +1,19 @@
+structure (Pads) {
+  property (sitename) {
+    type (SiteName)
+    min (Optional) max (One)
+  }
+
+  property (url) {
+    type (URL)
+    min (Optional) max (One)
+  }
+
+  property (icon) {
+    type (Icon)
+    min (Optional) max (One)
+  }
+    features {
+    transient
+  }
+}

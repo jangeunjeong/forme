@@ -1,0 +1,59 @@
+endpoints {
+	action-endpoints {
+			action-endpoint (GetCityOAGInfo) {
+			accepted-inputs (city, sigungu, oagvocab,sword,point, pointaddr)
+			local-endpoint (GetCityOAGInfo.js)
+		}
+		
+		action-endpoint (GetCityPharmacyInfo) {
+			accepted-inputs (point, pointaddr, pharmacyvocab, city, sigungu, sword)
+			local-endpoint (GetCityPharmacyInfo.js)
+		}
+		
+		
+		action-endpoint (SearchRecentVideo) {
+			accepted-inputs (keyword, showVideo)
+			local-endpoint (searchRecent.js)
+		}
+		
+		action-endpoint (getMyPosition) {
+			accepted-inputs (pointaddr, point)
+			local-endpoint ("getMyPosition.js")
+		}
+		
+		action-endpoint (GetPadsInfo) {
+			accepted-inputs (order, pad)
+			local-endpoint (GetPadsInfo.js)
+		}
+		action-endpoint (informationFood) {
+			accepted-inputs (food)
+			local-endpoint (informationFood.js)
+		}
+		
+		action-endpoint (InsertMens) {
+			accepted-inputs (mens_startdate, $vivContext)
+			local-endpoint (InsertMens.js)
+		}
+		
+		action-endpoint (EndMens) {
+			accepted-inputs (mens_enddate, $vivContext)
+			local-endpoint (EndMens.js)
+		}
+		
+		action-endpoint (InsertLove) {
+			accepted-inputs (love_date, $vivContext)
+			local-endpoint (InsertLove.js)
+		}
+		
+		action-endpoint (FindUserMens) {
+			accepted-inputs ($vivContext)
+			local-endpoint (FindUserMens.js)
+		}
+		
+		action-endpoint (FindOvulation) {
+			accepted-inputs ($vivContext)
+			local-endpoint (FindUserOvul.js)
+		}
+
+	}
+}

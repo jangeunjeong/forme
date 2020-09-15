@@ -1,0 +1,6 @@
+text (Ovuldate) {
+  description (배란일)
+    features {
+    transient
+  }
+}

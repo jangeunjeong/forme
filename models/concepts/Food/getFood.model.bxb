@@ -1,0 +1,10 @@
+structure (getFood) {
+  description (생리통 관련 음식)
+  property (food) {
+    type (Food)
+    min (Required) max (One)
+  }
+    features {
+    transient
+  }
+}

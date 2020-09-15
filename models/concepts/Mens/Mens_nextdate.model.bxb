@@ -1,0 +1,6 @@
+text (Mens_nextdate) {
+  description (다음 생리 예정일)
+    features {
+    transient
+  }
+}

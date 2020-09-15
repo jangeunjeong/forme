@@ -1,0 +1,28 @@
+action (OpenRouteBrowser_P) {
+  description (URL을 통하여 app-lauch를 실행하는 action)
+  type (Constructor)
+  
+  collect {
+    input (pharmacy) {
+      type (CityPharmacy)
+      min (Required) max (One)
+    }
+  }
+  
+  output (RouteURL) {
+    evaluate {
+      $expr(pharmacy.routeurl)
+    }
+    throws{
+			unknown-error{
+				on-catch {
+					halt {
+						dialog {
+							template ("약국 검색 후 선택해주세요.")
+						}
+					}
+				}
+			}
+		}
+  }
+}

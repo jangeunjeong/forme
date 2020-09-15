@@ -1,0 +1,6 @@
+enum (showVideo) {
+  symbol (showVideos)
+    features {
+    transient
+  }
+}

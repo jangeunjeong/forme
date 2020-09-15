@@ -1,0 +1,7 @@
+text  (Keyword) {
+  description (유튜브 영상 발화)
+  // symbol (Keywords)
+    features {
+    transient
+  }
+}

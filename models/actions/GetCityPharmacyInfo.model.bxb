@@ -1,0 +1,60 @@
+action (GetCityPharmacyInfo) {
+	description (약국 정보를 가져옴)
+	type (Search)
+	
+	collect {
+		input (pharmacyvocab) {
+			type (Pharmacyvocab)
+			min (Required) max (One)
+		}
+		
+		computed-input (point) {
+			type (Point)
+			min (Required) max (One)
+			compute {
+				intent {
+					goal : Point
+					route : geo.CurrentLocation
+				}
+			}
+		}
+		
+		input (pointaddr) {
+			type (geo.GeocodedAddress)
+			
+			default-init{
+				if($user.currentLocation.$exists){
+					intent{
+						goal: geo.GeoPoint
+						value-set: geo.CurrentLocation {$expr ($user.currentLocation)}
+					}
+				}
+			}
+		}
+		
+		input (sword) {
+			type (Searchword)
+			min (Required) max (One)
+		}
+
+		input (city) {
+			type (City)
+			min (Required) max (One)
+		}
+		
+		input (sigungu) {
+			type (Sigungu)
+			min (Optional) max (One)
+		}
+	}
+	
+	output (CityPharmacy) {
+		on-empty {
+			halt {
+				dialog {
+					template ("해당 위치에는 공공데이터에 등록된 약국이 없습니다.")
+				}
+			}
+		}
+	}
+}

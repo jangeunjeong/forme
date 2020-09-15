@@ -1,0 +1,7 @@
+enum (Order) {
+  description (주문 관련 발화)
+  symbol (Orders)
+    features {
+    transient
+  }
+}

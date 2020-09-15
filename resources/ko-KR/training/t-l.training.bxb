@@ -1,0 +1,30 @@
+train (t-l1vuq3vf74iq6q80r2q0o0sxg) {
+  utterance ("[g:EndMens] (오늘)[v:time.DateTimeExpression] 끝났어")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1572082339069)
+}
+train (t-l3xnj2rwy50cijuub21cs806h) {
+  utterance ("[g:GetCityPharmacyInfo] (서울)[v:City] (서대문구)[v:Sigungu] (약국)[v:Pharmacyvocab] (있)[v:Searchword:Searchwords]어요")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573039580928)
+}
+train (t-la51p76c01ol2s57tisd8xvxb) {
+  utterance ("[g:InsertMens] (10월 10일)[v:time.DateTimeExpression] 시작했어")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DOIo8p55xalFJSBVDNJlmWV6JZlAQZfEktQQIMO1oqAotbgYqJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1572438679794)
+}
+train (t-lchdmsebaztcvp6w5egtkdcwo) {
+  utterance ([g:FindUserMens] 다음에 언제해)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572343770606)
+}
+train (t-lqmei5dx05xy37ctrdji0mcg7) {
+  utterance ("[g:GetCityPharmacyInfo] (주변)[v:City] (약국)[v:Pharmacyvocab] 정보 (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573040734440)
+}
+train (t-ludtpw1trfxioxied65b9fo9r) {
+  utterance ("[g:GetCityOAGInfo] (서울시)[v:City] (중구)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (알려)[v:Searchword:Searchwords]주세요")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040565429)
+}

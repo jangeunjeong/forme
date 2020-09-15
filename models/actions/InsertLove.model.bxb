@@ -1,0 +1,23 @@
+action (InsertLove) {
+  type(Search)
+  description (사랑일 등록하기)
+  collect {
+    input (love_date) {
+      type (time.DateTimeExpression)
+      min (Required) max (One)
+    }
+  }
+  output (Love_info){
+    throws{
+      unknown-error{
+        on-catch {
+          halt {
+            dialog {
+              template ("생리 시작일을 먼저 기록해주세요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

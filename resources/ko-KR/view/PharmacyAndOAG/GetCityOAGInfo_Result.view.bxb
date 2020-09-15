@@ -1,0 +1,49 @@
+result-view {
+  match : CityOAG (this)
+
+  message {
+    if (size(this) == 1) {
+      template ("[#{value(this.username)} 님,] 검색하신 산부인과 정보입니다.")
+    } else-if (size(this) >1){
+      template ("[#{value(this.username)} 님,] 해당 지역의 산부인과들의 정보입니다.")
+    }
+  }
+  
+  render {
+    if (size(this) == 1) {
+      layout {
+        layout-macro (CityOAGMap) {
+          param (info) {
+            expression (this)
+          }
+        }
+        layout-macro (CityOAGInfo) {
+          param(info) {
+            expression (this)
+          }
+        }
+      }
+    } else {
+      list-of (this) {
+        where-each (item) {
+          layout-macro (CityOAGList) {
+            param (OAG) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  conversation-drivers {
+    if (size(this) == 1 && this[0].distance != '') {
+      conversation-driver {
+        template ("병원 가는 길 알려줘")
+      }
+      conversation-driver {
+        template ("병원으로 전화 걸어줘")
+      }
+    }
+  }
+}

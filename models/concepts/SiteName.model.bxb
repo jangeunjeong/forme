@@ -1,0 +1,6 @@
+text (SiteName) {
+  description (사이트이름)
+    features {
+    transient
+  }
+}

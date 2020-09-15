@@ -1,0 +1,97 @@
+layout-macro-def  (ovul-result) {
+	params{
+		param (ovulation_result){
+			type(Ovulation_result)
+			min(Required) max (One)
+			
+		}
+	}
+	content{
+		if("size(ovulation_result) > 0"){
+			//헤더섹션
+			section{
+				content{
+					
+					single-line {
+						text {
+							style (Detail_M_Soft)
+							value ("배란일은")
+						}
+					}
+					single-line {
+						text {
+							style (Detail_L)
+							value ("#{value(ovulation_result.ovuldate)}")
+						}
+						
+					}
+					divider
+					single-line {
+						text {
+							style (Detail_M_Soft)
+							value ("가임기는")
+						}
+					}
+					single-line {
+						text {
+							style (Detail_L)
+							value ("#{value(ovulation_result.ovulation_startdate)}")
+						}
+						spacer
+						
+						text {
+							style (Detail_M_Soft)
+							value ("부터")
+						}
+					}
+					single-line {
+						text {
+							style (Detail_L)
+							value ("#{value(ovulation_result.ovulation_enddate)}")
+						}
+						spacer
+						
+						text {
+							style (Detail_M_Soft)
+							value ("까지 입니다.")
+						}
+					}
+					
+					divider
+					if ("size(ovulation_result.love_date) > 0"){
+						paragraph {
+							value {
+								template ("다음은 사랑일 정보입니다. ")
+							}
+						}
+						
+						for-each (ovulation_result.love_date) {
+							as (item) {
+								title-card{
+									title-area{
+										slot2{
+											single-line{
+												image {
+													style(Detail_L_Soft)
+													url {
+														template ("/img/heart.png ")
+													}
+												}
+												spacer
+												text{
+													value{
+														template ("#{value(item)}")
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

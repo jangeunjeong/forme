@@ -1,0 +1,6 @@
+text (Mens_enddate) {
+	description (mens_enddate parameter 에 그냥 time.DateTimeExpression 넣어줬음)
+	  features {
+    transient
+  }
+}

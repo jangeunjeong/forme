@@ -1,0 +1,25 @@
+train (t-j1n6p818k8co6375pbizd7dqa) {
+  utterance ("[g:informationFood] (유자)[v:Food]는 안 먹어야 돼")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356856085)
+}
+train (t-j3v6zexbbkqu7fb35h7sgchl5) {
+  utterance ("[g:EndMens] (오늘)[v:time.DateTimeExpression] 끝나")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1572343930447)
+}
+train (t-j9cofbbiztkx2hak7ofdx487s) {
+  utterance ("[g:GetCityOAGInfo] (강원도)[v:City] (강릉시)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040558908)
+}
+train (t-jfgjwnqdsmra22jqva6pvbr26) {
+  utterance ("[g:informationFood] (석류)[v:Food] 먹으면 어떻게 돼")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572437695319)
+}
+train (t-jtb96gt5lbz6l02tyjiub70l5) {
+  utterance ("[g:informationFood] (유자)[v:Food] 나빠 좋아")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572359717096)
+}

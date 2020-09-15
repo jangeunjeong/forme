@@ -1,0 +1,38 @@
+layout-macro-def (VideoCard) {
+  params {
+    param (video) {
+      type (Video)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    compound-card {
+      content {
+        image-card {
+          image-url ("#{value(video.thumbnail)}")
+          title-area {
+            slot1 {
+              text {
+                value ("")
+              }
+            }
+          }
+        }
+        single-line {
+          text {
+            value {
+              template ("#{value(video.title)}")
+            }
+          }
+        }
+      }
+      on-click {
+        intent {
+          goal: Video
+          value: $expr(video)
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+train (t-83z2hc4h41oo755cnncex9t1l) {
+  utterance ("[g:GetCityOAGInfo] (서울)[v:City] (종로)[v:Sigungu] (산부인과)[v:OAGvocab:OAGvocabs] (찾아)[v:Searchword:Searchwords]주실래요")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040758048)
+}
+train (t-88okkxqr45e2082ypj1wcnjvx) {
+  utterance ([g:FindUserMens] 예정일 보여줘)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572343731086)
+}
+train (t-8o268pow550ph7bs0z4eszuzg) {
+  utterance ("[g:GetCityPharmacyInfo] (근처)[v:City] (약국)[v:Pharmacyvocab] (어딨)[v:Searchword:Searchwords]니")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573039996033)
+}
+train (t-8wzah3nmaoldu08c4q1wir0zm) {
+  utterance ("[g:informationFood] (초콜릿)[v:Food] 먹어도 될까")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572092313225)
+}

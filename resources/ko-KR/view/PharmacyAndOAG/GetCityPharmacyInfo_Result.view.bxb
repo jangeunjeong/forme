@@ -1,0 +1,55 @@
+result-view {
+	match : CityPharmacy (this)
+	
+	message {
+		if (size(this) == 1) {
+			template ("[#{value(this.username)} 님,] 검색하신 약국 정보입니다.")
+		} else-if (size(this) >1){
+			template ("[#{value(this.username)} 님,] 해당 지역 약국들의 정보입니다.")
+		}
+		
+		
+	}
+	
+	render {
+		
+		if (size(this) == 1) {
+			layout {
+				layout-macro (CityPharmacyMap) {
+					param (info) {
+						expression (this)
+					}
+				}
+				layout-macro (CityPharmacyInfo) {
+					param(info) {
+						expression (this)
+					}
+				}
+			}
+		}
+		else {
+			list-of (this) {
+				where-each (item) {
+					layout-macro (CityPharmacyList) {
+						param (Pharmacy) {
+							expression (item)
+						}
+					}
+				}
+			}
+		}
+	}
+	conversation-drivers {
+		
+		if (size(this) == 1 && this[0].distance != '') {
+			conversation-driver {
+				template ("약국 가는 길 알려줘")
+			}
+			conversation-driver {
+				template ("약국 전화 걸어줘")
+			}
+		}
+	}
+}
+
+

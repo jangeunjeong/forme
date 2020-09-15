@@ -1,0 +1,20 @@
+train (t-ij3fyzn47amqplntfzyxdw29j) {
+  utterance ("[g:GetCityPharmacyInfo] (충청남도)[v:City] (공주시)[v:Sigungu]에서 (약국)[v:Pharmacyvocab] (찾아)[v:Searchword:Searchwords]줄래")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040658816)
+}
+train (t-ijpikxg5l2a0gwfnqdtjq0vd9) {
+  utterance ("[g:informationFood] (커피)[v:Food] 마셔도 되니")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572343566886)
+}
+train (t-iuoqlkq4jx8ew2ta10nz2z32k) {
+  utterance ("[g:GetCityPharmacyInfo] (대전)[v:City] (서구)[v:Sigungu] (약국)[v:Pharmacyvocab] (있)[v:Searchword:Searchwords]니")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573039332365)
+}
+train (t-iw0icxxqca4ai11hg51juimim) {
+  utterance ([g:FindOvulation] 임신 가능한 날짜 언제인지 알려줘)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572344353342)
+}

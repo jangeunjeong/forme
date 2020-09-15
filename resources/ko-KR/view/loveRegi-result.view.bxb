@@ -1,0 +1,21 @@
+result-view {
+	match {
+		Love_info (this)
+	}
+	 message {
+    if (size(this) > 0) {
+      template ("등록이 완료되었습니다.")
+    } else {
+      template ("생리 시작일을 먼저 기록해주세요.")
+    }
+  }
+	render {
+		
+		layout-macro (loveRegi-result) {
+			param (love_info) {
+				expression (this)
+			}
+		}
+		
+	}
+}

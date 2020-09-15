@@ -1,0 +1,19 @@
+action (FindOvulation) {
+	type(Search)
+	description (사랑일 여러개 받아와야해 & 가임기 랑 같이)
+	
+	output (Ovulation_result) // 사랑일은 배열로
+	{
+    throws{
+      unknown-error{
+        on-catch {
+          halt {
+            dialog {
+              template ("생리 시작일을 먼저 기록해주세요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

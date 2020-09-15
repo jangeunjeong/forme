@@ -1,0 +1,6 @@
+text (VideoUrl) {
+  description (영상 주소)
+    features {
+    transient
+  }
+}

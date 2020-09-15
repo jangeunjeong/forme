@@ -1,0 +1,15 @@
+structure (Love_info) {
+  description (저장된 사랑일 가져오기)
+  property (user_id) {
+    type (User_id)
+    min (Required) max (One)
+  }
+
+  property (love_date) {
+    type (Love_date)
+    min (Required) max (One)
+  }
+    features {
+    transient
+  }
+}

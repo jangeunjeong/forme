@@ -1,0 +1,6 @@
+text (Ovulation_enddate) {
+  description (가임기 종료일)
+    features {
+    transient
+  }
+}

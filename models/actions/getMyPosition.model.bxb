@@ -1,0 +1,33 @@
+action (getMyPosition) {
+  type(Search)
+  description (get current position)
+  collect {
+    input (pointaddr) {
+      type (geo.GeocodedAddress)
+      
+      default-init{
+        if($user.currentLocation.$exists){
+          intent{
+            goal: geo.GeoPoint
+            value-set: geo.CurrentLocation {$expr ($user.currentLocation)}
+          }
+        }
+      }
+    }
+    
+    input(point){
+       min (Required) max(One)
+       type (geo.GeoPoint)
+
+       default-init {
+         if ($user.currentLocation.$exists) {
+           intent {
+             goal: geo.CurrentLocation
+             value-set: geo.CurrentLocation { $expr ($user.currentLocation) }
+           }
+         } 
+       }
+     }
+  }
+  output (AddrList)
+}

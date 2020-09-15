@@ -1,0 +1,19 @@
+action (GetPadsInfo) {
+	description (생리대 검색 url 목록)
+	type (Search)
+	
+	collect {
+		input (order) {
+			type (Order)
+			min (Required) max (One)
+		}
+		
+		input (pad) {
+			type (Pad)
+			min (Required) max (One)
+		}
+		
+	}
+	
+	output (Pads)
+}

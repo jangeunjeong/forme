@@ -1,0 +1,11 @@
+action (FindUser) {
+  type(Search)
+  description (사용자정보찾기)
+  collect {
+    input (find_forme_user) {
+      type (Forme_user)
+      min (Required) max (One)
+    }
+  }
+  output (Forme_user)
+}

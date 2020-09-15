@@ -1,0 +1,4 @@
+enum (OAGvocab) {
+  description (병원 발화)
+  symbol (OAGvocabs)
+}

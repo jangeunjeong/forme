@@ -1,0 +1,7 @@
+text (Food) {
+  description (음식)
+    features {
+    transient
+  }
+}
+

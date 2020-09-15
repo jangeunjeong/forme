@@ -1,0 +1,20 @@
+train (t-t601ezue8srz3axy1syxx9ijg) {
+  utterance ("[g:GetCityPharmacyInfo] (대전)[v:City] (서구)[v:Sigungu] (약국)[v:Pharmacyvocab] (찾아)[v:Searchword:Searchwords]줘")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040738578)
+}
+train (t-t99es3o1gtebx3hr330q0yqub) {
+  utterance ([g:FindOvulation] 배란일 언제쯤이니)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572362287375)
+}
+train (t-tjo0ao4oe3fbky3z24sukfwyd) {
+  utterance ("[g:EndMens] (10월 26일)[v:time.DateTimeExpression] 끝났어")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1572097474908)
+}
+train (t-trj9fmh6zrj3dgrvf7w9q5cup) {
+  utterance ("[g:GetCityOAGInfo] (서울특별시)[v:City] (중구)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] 좀 (찾아)[v:Searchword:Searchwords]주세요")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040590404)
+}

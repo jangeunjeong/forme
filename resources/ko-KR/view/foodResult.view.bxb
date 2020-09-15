@@ -1,0 +1,25 @@
+result-view {
+  match : FoodResult(this)
+
+
+  message {
+    template ("#{value(this.message)}")
+  }
+
+
+  render {
+    layout-macro (resultDetails) {
+      param (itemInfo) {
+        expression (this)
+      }
+    }
+  }
+
+  conversation-drivers {
+    if ( value(this.devide) == true ) {
+      conversation-driver {
+        template ("생리통에 좋은 음식 검색해줘")
+      }
+    }
+  }
+}

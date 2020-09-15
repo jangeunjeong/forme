@@ -1,0 +1,15 @@
+train (t-1ipgmjqp7nmdr621twh99hx2a) {
+  utterance ("[g:GetCityOAGInfo] (제주특별자치도)[v:City] (제주시)[v:Sigungu]에서 (병원)[v:OAGvocab:OAGvocabs] 좀 (찾아)[v:Searchword:Searchwords]봐")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573036314556)
+}
+train (t-1tag7din9mmfr7vzm4i1coly8) {
+  utterance ("[g:GetCityOAGInfo] (전라북도)[v:City] (전주시)[v:Sigungu]에 (병원)[v:OAGvocab:OAGvocabs] 좀 (있)[v:Searchword:Searchwords]을까")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573036296578)
+}
+train (t-1yzdqp5ngsza6wfdmhtrkd7d0) {
+  utterance ("[g:GetCityOAGInfo] (가장 가까운)[v:City] (병원)[v:OAGvocab:OAGvocabs] (보여)[v:Searchword:Searchwords]줄래")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573036304077)
+}

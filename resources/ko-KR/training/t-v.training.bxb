@@ -1,0 +1,55 @@
+train (t-v03wrms1k9g732uudrbv5s5ze) {
+  utterance ("[g:InsertLove] (10월 8일)[v:time.DateTimeExpression]에 사랑했다")
+  plan (Y2BmEEvLL6rML9UDUrmpej75ZanxmXlp+QziKOKeecWpRSUgWQbpsswyvZJMoKBLYklqCJDhWlFQlFpcnJmfx8DEwAjEDECSkQEEoHwA)
+  last-modified (1572435918210)
+}
+train (t-v26beoi11n57ajp6d6uqx42ff) {
+  utterance ("[g:GetCityPharmacyInfo] (근처)[v:City] (약국)[v:Pharmacyvocab] (찾아)[v:Searchword:Searchwords]줘")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573040690929)
+}
+train (t-v2l5ctvt6x9bndondq7ha2ezz) {
+  utterance ("[g:GetCityPharmacyInfo] (강원도)[v:City] (강릉시)[v:Sigungu] (약국)[v:Pharmacyvocab] (보여)[v:Searchword:Searchwords]주라")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040693863)
+}
+train (t-v52swa5aiqsezbmfwbemizt79) {
+  utterance ("[g:RecentSearch] 생리통에 좋은 (운동)[v:Keyword] (알려)[v:showVideo:showVideos]줘")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573037738261)
+}
+train (t-v7q6zyvilvww2res0iwmo1wwb) {
+  utterance ("[g:GetCityPharmacyInfo] (대전광역시)[v:City] (유성구)[v:Sigungu] (약국)[v:Pharmacyvocab] (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040697874)
+}
+train (t-vajsa86pm24pg3jw3q81s3swh) {
+  utterance ([g:FindOvulation] 임신 가능한 날은 언제니)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572344338664)
+}
+train (t-vm6pnbo8utnqrcf283qunl3f6) {
+  utterance ("[g:InsertLove] 나 (오늘)[v:time.DateTimeExpression] 사랑했어")
+  plan (Y2BmEEvLL6rML9UDUrmpej75ZanxmXlp+QziKOKeecWpRSUgWQbpsswyvZJMoKBLYklqCJDhWlFQlFpcnJmfx8DEwAjEDECSkQEEoHwA)
+  last-modified (1572435944275)
+}
+train (t-vn28yfo7p1bbcc2akfhocqt6e) {
+  utterance ("[g:GetCityPharmacyInfo] (경기도)[v:City] (수원시)[v:Sigungu] (약국)[v:Pharmacyvocab] (있)[v:Searchword:Searchwords]니")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040705929)
+}
+train (t-vnbyb6mcf18dgw7iciks6jn95) {
+  utterance ("[g:InsertLove] 나 (오늘)[v:time.DateTimeExpression] 사랑했어요")
+  plan (Y2BmEEvLL6rML9UDUrmpej75ZanxmXlp+QziKOKeecWpRSUgWQbpsswyvZJMoKBLYklqCJDhWlFQlFpcnJmfx8DEwAjEDECSkQEEoHwA)
+  last-modified (1572435913357)
+}
+train (t-vsejth0sfmeu0xieeocxn34rw) {
+  utterance ("[g:GetCityPharmacyInfo] 이 (근처)[v:City] (약국)[v:Pharmacyvocab] 좀 (찾아)[v:Searchword:Searchwords]줄래")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573040711447)
+}
+train (t-vv3cco6ehu3f7akacxe9iv27h) {
+  utterance ("[g:GetCityOAGInfo] (서울시)[v:City] (종로구)[v:Sigungu] (산부인과)[v:OAGvocab:OAGvocabs] (알려)[v:Searchword:Searchwords]주겠니")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040776949)
+}

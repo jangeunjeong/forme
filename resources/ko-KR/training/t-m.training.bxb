@@ -1,0 +1,15 @@
+train (t-m32uh0ca4f7cj2gi91ayexm1x) {
+  utterance ("[g:GetCityOAGInfo] (서울)[v:City] (종로)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (있)[v:Searchword:Searchwords]니")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573039594440)
+}
+train (t-mnpkjliakkcck87nfe2l5u77v) {
+  utterance ([g:FindOvulation] 배란일이 언제야)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572436144590)
+}
+train (t-mnvx4fq5tpbeveail9o8uqjag) {
+  utterance ("[g:GetPadsInfo] (생리대)[v:Pad] (사고)[v:Order:Orders]싶어")
+  plan (Y2BhEEzLL6rML9UDUrmpegGJKcUMEihC7qklIFHPvLR8BiEUGf+ilNQiBgF0AxiYGRgZmIAkA5AGQQiAiwIA)
+  last-modified (1573038560024)
+}

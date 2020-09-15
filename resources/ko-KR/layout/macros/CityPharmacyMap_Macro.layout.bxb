@@ -1,0 +1,44 @@
+layout-macro-def (CityPharmacyMap) {
+  params {
+    param (info) {
+      type (CityPharmacy)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+    section {
+      content {
+        map-card {
+          aspect-ratio (16:9)
+          title-area {
+            slot1 {
+              text {
+                value ("#{value(info.dutyname)}")
+                style (Title_M)
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (info.point.point)
+              icon ("/img/pharmacy.png")
+              width (30)
+              height (30)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+          on-click {
+            intent {
+              goal : OpenBrowser
+              value : $expr(info.url)
+            }
+          }
+          zoom (16)
+        }
+      }
+    }
+  }
+}
