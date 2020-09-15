@@ -1,0 +1,47 @@
+layout-macro-def (CityOAGList) {
+  params {
+    param (OAG) {
+      type (CityOAG)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+    compound-card {
+      content {
+        map-card {
+          aspect-ratio (16:9)
+          title-area {
+            slot1 {
+              text {
+                value ("#{value(OAG.oagplace)}")
+                style (Title_M)
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (OAG.point.point)
+              icon ("/img/OAG.png")
+              width (30)
+              height (30)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+          zoom (15)
+        }
+        single-line {
+          text {
+            value {
+              template ("#{value(OAG.oagaddress)}")
+            }
+            style (Detail_L_Soft)
+          }
+        }
+      }
+
+    }
+  }
+}

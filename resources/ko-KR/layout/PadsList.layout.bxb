@@ -1,0 +1,39 @@
+layout-macro-def (PadsList) {
+	params {
+		param (pads) {
+			type (Pads)
+			min (Required) max (One)
+		}
+	}
+	content {
+		section {
+			content {
+				for-each (pads) {
+					as (pad) {
+						image-card {
+							image-url {
+								template ("#{value(pad.icon)}")
+							}
+							aspect-ratio (4:3)
+							column-size (Two)
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										style (Title_M)
+										value ("")
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal : $expr(pad.url)
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

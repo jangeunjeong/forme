@@ -1,0 +1,10 @@
+train (t-oemfnrjojrph5cd0vnd0jxlke) {
+  utterance ("[g:GetCityOAGInfo] (전라남도)[v:City] (무안군)[v:Sigungu]에서 (병원)[v:OAGvocab:OAGvocabs] (찾아)[v:Searchword:Searchwords]주렴")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040571789)
+}
+train (t-osj0h24c2aq4g79ppm02qz6b2) {
+  utterance ([g:FindUserMens] 다음에 언제 하는지 알려주겠니)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572435418493)
+}

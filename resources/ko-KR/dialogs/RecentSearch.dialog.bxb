@@ -1,0 +1,13 @@
+dialog (Result) {
+  match: RecentSearch (this)
+  if (size(this.video) > 0) {
+    template("영상을 확인해보세요.") {
+      speech ("#{size(this.video)}개의 영상을 찾았어요.")
+    }
+  }
+  else {
+    template("영상을 찾을 수 없어요.") {
+      speech ("영상을 찾을 수 없어요.")
+    }
+  }
+}

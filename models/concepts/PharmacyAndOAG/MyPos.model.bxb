@@ -1,0 +1,3 @@
+structure (MyPos) {
+  role-of(geo.CurrentLocation)
+}

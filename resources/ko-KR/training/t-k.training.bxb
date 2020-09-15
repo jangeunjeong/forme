@@ -1,0 +1,25 @@
+train (t-k6ikqn47g8u9mhsmaywvu4lkp) {
+  utterance ("[g:informationFood] (석류)[v:Food] 먹어도 되냐")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572092335365)
+}
+train (t-k957ptpnzdsg52wrhfwjsia67) {
+  utterance ("[g:GetPadsInfo] (생리대)[v:Pad]를 (시키)[v:Order:Orders]고 싶어")
+  plan (Y2BhEEzLL6rML9UDUrmpegGJKcUMEihC7qklIFHPvLR8BiEUGf+ilNQiBgF0AxiYGRgZmIAkA5AGQQiAiwIA)
+  last-modified (1573038366099)
+}
+train (t-kgxqk7art9a8rali1hda38woe) {
+  utterance ("[g:RecentSearch] 생리통에 좋은 (운동)[v:Keyword] (찾아)[v:showVideo:showVideos]줘")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573037718849)
+}
+train (t-kj739x9nzntufmi8yypptrbaq) {
+  utterance ([g:OpenRouteBrowser_P:continue:GetCityPharmacyInfo] 약국 가는 길 알려줘)
+  plan (Y2BmEE3LL6rML9UDUrmpekH5pSWpoUE+DPIowv4FqXlgKaei/PLi1KL4AAZJFAXOmSWVARmJRbmJyZUMTAyMQMwAJBkZGGA0AA==)
+  last-modified (1572499806894)
+}
+train (t-kohbvq51stonus2hdy7mao7sg) {
+  utterance ("[g:GetCityPharmacyInfo] (근처)[v:City] (약국)[v:Pharmacyvocab] (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573040677479)
+}

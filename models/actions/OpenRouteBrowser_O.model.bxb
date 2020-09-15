@@ -1,0 +1,28 @@
+action (OpenRouteBrowser_O) {
+  description (URL을 통하여 app-lauch를 실행하는 action)
+  type (Constructor)
+  
+  collect {
+    input (oag) {
+      type (CityOAG)
+      min (Required) max (One)
+    }
+  }
+  
+  output (RouteURL) {
+    evaluate {
+      $expr(oag.routeurl)
+    }
+    throws{
+			unknown-error{
+				on-catch {
+					halt {
+						dialog {
+							template ("병원 검색 후 선택해주세요.")
+						}
+					}
+				}
+			}
+		}
+  }
+}

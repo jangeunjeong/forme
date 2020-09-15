@@ -1,0 +1,10 @@
+train (t-5eiv030ub9sxz27c36mgmkphi) {
+  utterance ("[g:informationFood] (석류)[v:Food]는 나빠")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356875650)
+}
+train (t-5fndhdmtsgdy6v14wj88yyy2a) {
+  utterance ("[g:GetCityOAGInfo] (근처)[v:City] (병원)[v:OAGvocab:OAGvocabs]을 (찾아주세요)[v:Searchword:Searchwords]")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1572442860905)
+}

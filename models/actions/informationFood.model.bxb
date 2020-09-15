@@ -1,0 +1,11 @@
+action (informationFood) {
+	description (음식 섭취 유/무 정보)
+	type(Search)
+	collect {
+		input (food) {
+			type (Food)
+			min (Required) max (One)
+		}
+	}
+	output (FoodResult)
+}

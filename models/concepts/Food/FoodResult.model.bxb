@@ -1,0 +1,25 @@
+structure (FoodResult) {
+  //message, second, foods, devide
+  property (message) {
+    type (Message)
+    min (Required) max (One)
+  }
+
+    property (second) {
+    type (Second)
+    min (Required) max (One)
+  }
+
+    property (foods) {
+    type (Foods)
+    max (Many)
+  }
+
+  property (devide) {
+    type (Devide)
+    min (Required) max (One)
+  }
+    features {
+    transient
+  }
+}

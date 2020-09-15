@@ -1,0 +1,4 @@
+enum (Searchword) {
+  description (병원, 약국을 찾기 위한 맺음말)
+  symbol (Searchwords)
+}

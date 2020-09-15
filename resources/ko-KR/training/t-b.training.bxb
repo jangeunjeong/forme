@@ -1,0 +1,10 @@
+train (t-bownbr7p21v7hik8og0vi9oez) {
+  utterance ("[g:informationFood] (고등어)[v:Food] 나빠")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572357226142)
+}
+train (t-by3d9yizg5q2m0gfu9auilgmj) {
+  utterance ("[g:informationFood] (탄산음료)[v:Food] 마시고 싶어")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356791697)
+}

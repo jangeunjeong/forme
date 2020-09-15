@@ -1,0 +1,9 @@
+result-view {
+  match: Video (this)
+
+  message()
+  
+  app-launch {
+    payload-uri ("#{value(this.url)}")
+  }
+}

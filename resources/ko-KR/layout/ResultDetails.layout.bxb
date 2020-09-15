@@ -1,0 +1,44 @@
+layout-macro-def  (resultDetails) {
+	params{
+		param (itemInfo){
+			type(FoodResult)
+			min(Required) max (One)
+		}
+	}
+	content {
+		
+		section {
+			title {
+				template ("#{value(itemInfo.second)}")
+			}
+			content {
+				for-each (itemInfo.foods) {
+					as (item) {
+						image-card {
+							image-url {
+								template ("#{value(item.icon)}")
+							}
+							aspect-ratio (4:3)
+							column-size (Two)
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										style (Title_XS)
+										value ("#{value(item.sitename)}")
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal : $expr(item.url)
+									// value : $expr(pad.url)
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

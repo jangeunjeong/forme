@@ -1,0 +1,25 @@
+train (t-d0xibnkkpsyqcpgok2uicg59n) {
+  utterance ([g:FindUserMens] 이후 예정일 찾아줘)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572343784268)
+}
+train (t-d11ar8uy9qgr8thhci5hyx8ch) {
+  utterance ("[g:GetCityOAGInfo] (충청북도)[v:City] (청주시)[v:Sigungu]에 (병원)[v:OAGvocab:OAGvocabs] (없)[v:Searchword:Searchwords]니")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040496135)
+}
+train (t-d4hqr3g6gmhaqajcpnx4t174e) {
+  utterance ("[g:GetCityOAGInfo] (대전)[v:City] (서구)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (찾아)[v:Searchword:Searchwords]줘")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040508684)
+}
+train (t-dolz4n2qtyq420w63mqgytpwj) {
+  utterance ("[g:GetCityOAGInfo] (경상남도)[v:City] (창원시)[v:Sigungu]에 (병원)[v:OAGvocab:OAGvocabs] (찾아)[v:Searchword:Searchwords]주세요")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040537667)
+}
+train (t-dov81nneeupvs0yybkd569ufu) {
+  utterance ("[g:InsertMens] (8월 8일)[v:time.DateTimeExpression]에 시작이야")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DOIo8p55xalFJSBVDNJlmWV6JZlAQZfEktQQIMO1oqAotbgYqJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1572344208231)
+}

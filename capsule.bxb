@@ -1,0 +1,35 @@
+capsule {
+  id (foryou.forme)
+  version (0.1.4)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    use-input-views-for-selection-list-detail
+    no-filtering-with-validation
+    modern-default-view-behavior
+  }
+  
+  permissions{
+    user-profile-access
+    bixby-user-id-access
+  }
+  
+  capsule-imports {
+    import (viv.entity){ version(3.21.0) as (entity) }
+    import (viv.core){ as (core) version-from (entity)}
+    import (viv.common) { as (common) version-from (entity) }
+    import (viv.geo) { as (geo) version-from (entity) }
+    import (viv.time) {as (time) version (3.0.3) }
+  }
+  
+  store-sections {
+    section (HealthAndFitness)
+  }
+}
+

@@ -1,0 +1,30 @@
+train (t-g6uxn4xs2vwecrlsx5ft2z8ii) {
+  utterance ("[g:informationFood] (홍차)[v:Food] 마셔도 됩니까")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356773958)
+}
+train (t-ghyytfsqvn9ugw95z5rml48tn) {
+  utterance ("[g:RecentSearch] 생리통 완화 (운동)[v:Keyword] (틀어)[v:showVideo:showVideos]줘")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573036992951)
+}
+train (t-gl5tdgy04o44e69qlqk6zr8oh) {
+  utterance ("[g:GetCityOAGInfo] (주변)[v:City] (병원)[v:OAGvocab:OAGvocabs] (조회)[v:Searchword:Searchwords]해줘")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573039135039)
+}
+train (t-gsiv1vw9n2z2ao2cvdetipi78) {
+  utterance ("[g:GetCityOAGInfo] (근처)[v:City]에 있는 (병원)[v:OAGvocab:OAGvocabs] (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573040544427)
+}
+train (t-gwe281hyxmv1ibwwlfpd0qjr6) {
+  utterance ("[g:EndMens] (어제)[v:time.DateTimeExpression] 끝났어")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1573042120790)
+}
+train (t-gxxxlzump4ryg09q0us9zvzn9) {
+  utterance ("[g:InsertMens] (어제)[v:time.DateTimeExpression] 시작")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DOIo8p55xalFJSBVDNJlmWV6JZlAQZfEktQQIMO1oqAotbgYqJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1573040071943)
+}

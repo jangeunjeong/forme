@@ -1,0 +1,35 @@
+train (t-70jkn7rz4j03t0xu2oy7e8g2m) {
+  utterance ("[g:GetCityPharmacyInfo] (가까운)[v:City] (약국)[v:Pharmacyvocab] (갈)[v:Searchword:Searchwords]래")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573036253072)
+}
+train (t-7a1jo7p48id78lthpi1ovj0sb) {
+  utterance ("[g:RecentSearch] 생리통에 괜찮은 (자세)[v:Keyword] (보여)[v:showVideo:showVideos]줄래 ")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573037635789)
+}
+train (t-7jb9p7m7ivr2yvbclgrja7r5v) {
+  utterance ("[g:GetPadsInfo] (생리대)[v:Pad] (주문)[v:Order:Orders]해줄래요")
+  plan (Y2BhEEzLL6rML9UDUrmpegGJKcUMEihC7qklIFHPvLR8BiEUGf+ilNQiBgF0AxiYGRgZmIAkA5AGQQiAiwIA)
+  last-modified (1573035723192)
+}
+train (t-7kdqs0ma9tq9g0q2z047qw22n) {
+  utterance ("[g:informationFood] (햄)[v:Food] 좋아")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572357321110)
+}
+train (t-7t45rlaeb09t1jfowgkgyxkxm) {
+  utterance ("[g:GetCityOAGInfo] (주변)[v:City] (병원)[v:OAGvocab:OAGvocabs] (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573040466288)
+}
+train (t-7xxbgxzp2zv1i9zafqmfkwzuf) {
+  utterance ("[g:EndMens] (어제)[v:time.DateTimeExpression] 끝")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1573042136714)
+}
+train (t-7zaq9u71tapdr9yd89dd9d6a6) {
+  utterance ("[g:GetCityOAGInfo] (대구)[v:City] (달서)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (검색)[v:Searchword:Searchwords]해봐")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040471821)
+}

@@ -1,0 +1,19 @@
+action (SearchRecentVideo) {
+  description (생리통을 완화할 수 있는 영상 유튜브에 검색하여 보여줌)
+  type (Search)
+  collect {
+    input (keyword) {
+      type (Keyword)
+      min (Required) max (One)
+    }
+
+    input (showVideo) {
+      type (showVideo)
+      min (Required) max (One)
+    }
+  }
+  output (RecentSearch)
+}
+
+
+

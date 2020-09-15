@@ -1,0 +1,10 @@
+structure (RecentSearch) {
+  description (생리통 완화 영상 검색 결과)
+  property (video) {
+    type (Video)
+    min (Optional) max (Many)
+  }
+    features {
+    transient
+  }
+}

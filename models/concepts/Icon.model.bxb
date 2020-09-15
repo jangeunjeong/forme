@@ -1,0 +1,6 @@
+text (Icon) {
+  description (사이트 로고)
+    features {
+    transient
+  }
+}

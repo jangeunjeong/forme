@@ -1,0 +1,23 @@
+action (EndMens) {
+  type(Search)
+  description (월경 끝나는 날 저장해주기)
+  collect {
+    input (mens_enddate) {
+      type (time.DateTimeExpression)
+      min (Required) max (One)
+    }
+  }
+  output (Menstruation_info){
+    throws{
+      unknown-error{
+        on-catch {
+          halt {
+            dialog {
+              template ("생리 시작일을 먼저 기록해주세요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

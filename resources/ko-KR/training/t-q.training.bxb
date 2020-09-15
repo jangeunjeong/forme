@@ -1,0 +1,15 @@
+train (t-q626nbkuzrbsh59gpyvpfmzzl) {
+  utterance ("[g:informationFood] (유자)[v:Food]는 좋아 나빠")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572359842275)
+}
+train (t-q7sc2zirtiq2i251ffz9e5xrf) {
+  utterance ("[g:GetCityOAGInfo] (경기도)[v:City] (수원시)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (보여)[v:Searchword:Searchwords]주렴")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573040576764)
+}
+train (t-qregdev3am6ipcdadgesc52ep) {
+  utterance ([g:FindOvulation] 배란일 검색해줘)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572344496463)
+}

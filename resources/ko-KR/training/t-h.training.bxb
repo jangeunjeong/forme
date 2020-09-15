@@ -1,0 +1,20 @@
+train (t-h13qtde9zcj6n41lqgx4rjy6k) {
+  utterance ("[g:RecentSearch] 생리통에 괜찮은 (운동)[v:Keyword] (볼)[v:showVideo:showVideos]래")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573037693858)
+}
+train (t-h451kuniorqohvpleud2l6yat) {
+  utterance ("[g:informationFood] (땅콩)[v:Food] 먹으면 어떨까")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572437577499)
+}
+train (t-h5p4pvyprrlk3i446q7c99zer) {
+  utterance ("[g:GetCityOAGInfo] (가장 가까운)[v:City] (병원)[v:OAGvocab:OAGvocabs] (찾아)[v:Searchword:Searchwords]줄래")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573040549363)
+}
+train (t-hbcx0t8eencc052dtwqsecw8z) {
+  utterance ([g:FindOvulation] 배란일 언제야)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572360108762)
+}

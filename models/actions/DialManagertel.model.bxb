@@ -1,0 +1,17 @@
+action (DialManagertel) {
+  description (병원 전화 연결)
+  type (Constructor)
+  
+  collect {
+    input (oag) {
+      type (CityOAG)
+      min (Required) max (One)
+    }
+  }
+  
+  output (Managertel) {
+    evaluate {
+       $expr(oag.managertel)
+    }
+  }
+}

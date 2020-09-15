@@ -1,0 +1,20 @@
+train (t-079j1j4e0u4xy05rhcvxyfk7l) {
+  utterance ("[g:informationFood] (복숭아)[v:Food] 맛 봐도 되는가")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572431116749)
+}
+train (t-0jqknvziafiv62qmlf7t2ebla) {
+  utterance ("[g:GetCityOAGInfo] (대전광역시)[v:City] (유성구)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (알려)[v:Searchword:Searchwords]줘")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573036281222)
+}
+train (t-0rr8waepktggclglwf36w07vs) {
+  utterance ("[g:EndMens] (오늘)[v:time.DateTimeExpression] 끝이야")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DCIo8q55KSAlDNJlmWV6JZlAEZfEktQQIMO1oqAotbgYqI+BiYERiBmAJCMDCED5AA==)
+  last-modified (1572344032782)
+}
+train (t-0x6qazvt36m9kkum7waa05gos) {
+  utterance ("[g:GetPadsInfo] (생리대)[v:Pad] (찾)[v:Order:Orders]아줘")
+  plan (Y2BhEEzLL6rML9UDUrmpegGJKcUMEihC7qklIFHPvLR8BiEUGf+ilNQiBgF0AxiYGRgZmIAkA5AGQQiAiwIA)
+  last-modified (1573038628143)
+}

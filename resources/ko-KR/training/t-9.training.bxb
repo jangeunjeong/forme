@@ -1,0 +1,10 @@
+train (t-9g2przxzsdo72s2u02yjplz0u) {
+  utterance ([g:DialDutytel:continue:GetCityPharmacyInfo] 약국 전화 걸어줘)
+  plan (Y2BmEEnLL6rML9UDUrmpei6lJZUlqTkMEqiimYk5MBlJFBnnzJLKgIzEotzE5EoGJgZGIGYAkowMDDAaAA==)
+  last-modified (1572442660076)
+}
+train (t-9ht0u8umdjmmekbnbge1xlzt0) {
+  utterance ("[g:GetCityPharmacyInfo] (세종특별자치시)[v:City]에서 (고운동)[v:Sigungu] (약국)[v:Pharmacyvocab] (알고)[v:Searchword:Searchwords]싶어")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040630621)
+}

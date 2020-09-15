@@ -1,0 +1,13 @@
+structure (AddrList) {
+  description (나의 포지션 위도 경도 정보를 가져와서 주소를 보여줌)
+  property (addr) {
+    type (Addr)
+    visibility (Public)
+    min (Optional) max (One)
+  }
+  property (mypos){
+    type(MyPos)
+    visibility (Public)
+    min (Optional) max(One)
+  }
+}

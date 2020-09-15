@@ -1,0 +1,25 @@
+train (t-x3chgbwsqrbdmvwybdqxdjtt6) {
+  utterance ("[g:InsertMens] (오늘)[v:time.DateTimeExpression] 시작했어")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DOIo8p55xalFJSBVDNJlmWV6JZlAQZfEktQQIMO1oqAotbgYqJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1572082041919)
+}
+train (t-xbohlee6gdgfc372sbwo2iwm2) {
+  utterance ("[g:informationFood] (초콜릿)[v:Food] 먹는다")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572437680044)
+}
+train (t-xlp7483b2az3l109n2ilq7xe7) {
+  utterance ([g:FindUserMens] 다음 예정일 언제야)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572343742750)
+}
+train (t-xp2e5yblllzn04a9kdlw44fh2) {
+  utterance ("[g:GetCityPharmacyInfo] (전라남도)[v:City] (무안군)[v:Sigungu]에 (약국)[v:Pharmacyvocab] (있)[v:Searchword:Searchwords]냐")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040716588)
+}
+train (t-xtzi9ijh2jh892savm7sm7qjx) {
+  utterance ([g:FindUserMens] 다음 생리 예정일 알고싶어)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572360191238)
+}

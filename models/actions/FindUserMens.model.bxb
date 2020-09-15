@@ -1,0 +1,18 @@
+action (FindUserMens) {
+  type(Search)
+  description (사용자의 월경 정보 보여주기)
+ 
+  output (Mens_nextdate){
+    throws{
+      unknown-error{
+        on-catch {
+          halt {
+            dialog {
+              template ("생리 시작일을 먼저 기록해주세요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+result-view {
+	match {
+		Ovulation_result (this)
+	}
+	
+	render {
+		layout-macro (ovul-result) {
+			param (ovulation_result) {
+				expression (this)
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+text (VideoTitle) {
+  description (영상 제목)
+    features {
+    transient
+  }
+}

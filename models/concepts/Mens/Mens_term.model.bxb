@@ -1,0 +1,6 @@
+integer (Mens_term) {
+  description (기간 (5일, 7일))
+    features {
+    transient
+  }
+}

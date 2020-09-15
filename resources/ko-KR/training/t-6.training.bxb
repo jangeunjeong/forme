@@ -1,0 +1,15 @@
+train (t-69o9e8a3ma5sgw95ir7eophwd) {
+  utterance ("[g:GetPadsInfo] (검색)[v:Order:Orders]해줘 (생리대)[v:Pad]")
+  plan (Y2BhEEzLL6rML9UDUrmpegGJKcUMEihC7qklIFHPvLR8BiEUGf+ilNQiBgF0AxiYGRgZmIAkA5AGQQiAiwIA)
+  last-modified (1573035710410)
+}
+train (t-6boug6awodqkpjanu12vrzv12) {
+  utterance ([g:FindOvulation] 배란일이니)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572344312625)
+}
+train (t-6uyb1ryq1u9r3eaadd7ff1yhu) {
+  utterance ([g:FindUserMens] 생리 언제하지)
+  plan (Y2BikErLL6rML9UDUrmper6pecXxeakVJSmJJakMkihybpl5KaHFqUUgNQyMQMgAxUASAA==)
+  last-modified (1572527102244)
+}

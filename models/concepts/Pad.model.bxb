@@ -1,0 +1,6 @@
+text (Pad) {
+  description (생리대 발화)
+    features {
+    transient
+  }
+}

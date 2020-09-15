@@ -1,0 +1,6 @@
+text (Ovulation_startdate) {
+  description (가임기 시작일)
+    features {
+    transient
+  }
+}

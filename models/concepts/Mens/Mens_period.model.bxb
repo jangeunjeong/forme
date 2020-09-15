@@ -1,0 +1,6 @@
+integer (Mens_period) {
+  description (주기 (28일, 30일))
+    features {
+    transient
+  }
+}

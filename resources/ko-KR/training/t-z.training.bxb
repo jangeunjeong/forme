@@ -1,0 +1,5 @@
+train (t-zuts9nhg6d2nkic7beimlmz9d) {
+  utterance ([g:OpenRouteBrowser_O:continue:GetCityOAGInfo] 병원 가는 길 알려줘)
+  plan (Y2BmEE3LL6rML9UDUrmpekH5pSWpoUE+DPIowv4FqXlgKaei/PLi1KJ4fwYRFAXOmSWV/o7uDEwMjEDMACQZGRhgNAA=)
+  last-modified (1572442538902)
+}

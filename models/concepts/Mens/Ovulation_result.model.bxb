@@ -1,0 +1,23 @@
+structure (Ovulation_result) {
+		property (ovuldate) {
+		type (Ovuldate)
+		max (One)
+	}
+	property (ovulation_startdate) {
+		type (Ovulation_startdate)
+		max (One)
+	}
+	
+	property (ovulation_enddate) {
+		type (Ovulation_enddate)
+		max (One)
+	}
+	
+	property (love_date) {
+		type (Love_date)
+		max (Many)
+	}
+  features {
+    transient
+  }
+}

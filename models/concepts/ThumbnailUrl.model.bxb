@@ -1,0 +1,6 @@
+text (ThumbnailUrl) {
+  description (미리보기 이미지 주소)
+    features {
+    transient
+  }
+}

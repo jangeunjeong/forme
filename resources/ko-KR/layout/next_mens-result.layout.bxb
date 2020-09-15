@@ -1,0 +1,37 @@
+layout-macro-def(next_mens-result) {
+	params {
+		param (mens_nextdate) {
+			type (Mens_nextdate)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		if("size(mens_nextdate) > 0"){
+			section {
+				content {
+					single-line {
+						text {
+							style (Detail_M)
+							value ("사용자님의 다음 생리 예정일 정보")
+						}
+					}
+					single-line {
+						text {
+							style (Detail_L_Soft)
+							value ("생리 예정일 :")
+						}
+						spacer
+						
+						text {
+							style (Detail_L)
+							value ("#{value (mens_nextdate)}")
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}

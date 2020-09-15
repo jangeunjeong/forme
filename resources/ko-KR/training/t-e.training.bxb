@@ -1,0 +1,25 @@
+train (t-e44hq0tv9gzma4fu4kztaxlu1) {
+  utterance ("[g:informationFood] (참치)[v:Food] 좋아 나빠")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572357244590)
+}
+train (t-e6uwhkgxi50jkcy1ls4ym4rh6) {
+  utterance ("[g:GetCityPharmacyInfo] (근처)[v:City] (약국)[v:Pharmacyvocab] (어디있)[v:Searchword:Searchwords]니")
+  plan (Y2BlkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1573041167040)
+}
+train (t-ehtof3chxl1k48e1a6zqudo8g) {
+  utterance ("[g:GetCityPharmacyInfo] (서울특별시)[v:City] (중구)[v:Sigungu] (약국)[v:Pharmacyvocab] (알려)[v:Searchword:Searchwords]주세요")
+  plan (Y2BjkEzLL6rML9UDUrmpes6ZJZUBGYlFuYnJlQwKKFLuqSXIsp55afkMghiaGaRQhGCqy/KTE5MYxFHkglMTi5IzyvOLUhhEUCUy00vz0ksZWBkYGZgYmBlYgCwGIBsGEQBFBQA=)
+  last-modified (1573040648568)
+}
+train (t-estp11qxwojbhimrfkqdde1ih) {
+  utterance ("[g:informationFood] (땅콩)[v:Food]은 안 좋아")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572356810494)
+}
+train (t-eyanzlreynu0u6051hhysyzlj) {
+  utterance ("[g:InsertMens] (오늘)[v:time.DateTimeExpression] 시작해")
+  plan (Y2BmkEvLL6rML9UDUrmper6pecUlRaWJJZn5efGZeWn5DOIo8p55xalFJSBVDNJlmWV6JZlAQZfEktQQIMO1oqAotbgYqJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1572344162246)
+}

@@ -1,0 +1,46 @@
+layout-macro-def (CityPharmacyList) {
+  params {
+    param (Pharmacy) {
+      type (CityPharmacy)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+    compound-card {
+      content {
+        map-card {
+          aspect-ratio (16:9)
+          title-area {
+            slot1 {
+              text {
+                value ("#{value(Pharmacy.dutyname)}")
+                style (Title_M)
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (Pharmacy.point.point)
+              icon ("/img/pharmacy.png")
+              width (30)
+              height (30)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+          zoom (15)
+        }
+        single-line {
+          text {
+            value {
+              template ("#{value(Pharmacy.dutyaddr)}")
+            }
+            style (Detail_L_Soft)
+          }
+        }
+      }
+    }
+  }
+}

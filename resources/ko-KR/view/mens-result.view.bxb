@@ -1,0 +1,19 @@
+result-view {
+    match {
+        Menstruation_info (this)
+    }
+    message{
+    if (size(this) > 0) {
+     template ("등록이 완료되었습니다.")
+   } else {
+     template ("해당되는 월경 시작일이 등록되어 있지 않습니다.")
+   }
+    }
+    render {
+        layout-macro (mens-result) {
+            param (menstruation_info) {
+                expression (this)
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+train (t-4hr9atmi1egy2k5yj4kr3htbx) {
+  utterance ("[g:GetCityOAGInfo] (부산광역시)[v:City] (북구)[v:Sigungu]에서 (병원)[v:OAGvocab:OAGvocabs] (찾아)[v:Searchword:Searchwords]줄래")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1573036844164)
+}
+train (t-4i52ir8oqss4sw3t9ggana0ga) {
+  utterance ("[g:GetCityOAGInfo] (충청남도)[v:City] (공주시)[v:Sigungu] (병원)[v:OAGvocab:OAGvocabs] (어디있어)[v:Searchword:Searchwords]")
+  plan (Y2BjEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSlotgZnppfmpZcysDIwMjAxMDOwAFkMQDYMIgCKCgA=)
+  last-modified (1572517353226)
+}
+train (t-4styk7favvjsdjqg6tw8mk0tk) {
+  utterance ([g:FindOvulation] 오늘 임신 가능해)
+  plan (Y2BikE3LL6rML9UDUrmpev5lpTmJJZn5efFFqcWlOSUMUijSbpl5KXAlDIxAyADFQBIA)
+  last-modified (1572346550471)
+}

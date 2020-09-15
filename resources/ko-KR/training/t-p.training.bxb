@@ -1,0 +1,10 @@
+train (t-p161ad14s4qhn5o10tv8kcsl4) {
+  utterance ("[g:InsertLove] (오늘)[v:time.DateTimeExpression] 사랑했어")
+  plan (Y2BmEEvLL6rML9UDUrmpej75ZanxmXlp+QziKOKeecWpRSUgWQbpsswyvZJMoKBLYklqCJDhWlFQlFpcnJmfx8DEwAjEDECSkQEEoHwA)
+  last-modified (1572435532884)
+}
+train (t-p3319oiajzy2q4kdwnaby9z6w) {
+  utterance ("[g:RecentSearch] 생리통에 좋은 (자세)[v:Keyword] 좀 (찾아)[v:showVideo:showVideos]주세요")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573038224771)
+}

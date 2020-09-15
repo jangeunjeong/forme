@@ -1,0 +1,6 @@
+text (Message) {
+  description (메세지 발화)
+    features {
+    transient
+  }
+}

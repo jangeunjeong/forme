@@ -1,0 +1,13 @@
+result-view {
+	match {
+		Mens_nextdate (this)
+	}
+	
+	render {
+		layout-macro (next_mens-result) {
+			param (mens_nextdate) {
+				expression (this)
+			}
+		}
+	}
+}

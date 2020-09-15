@@ -1,0 +1,50 @@
+layout-macro-def(mens-result) {
+    params {
+        param (menstruation_info) {
+            type (Menstruation_info)
+            min (Required)
+            max (One)
+        }
+    }
+    
+    content {
+        if("size(menstruation_info) > 0"){
+            section {
+                content {
+                    single-line {
+                        text {
+                            style (Detail_M)
+                            value ("사용자님께서 등록한 월경 정보")
+                        }
+                    }
+                    single-line {
+                        text {
+                            style (Detail_L_Soft)
+                            value ("월경 시작 날짜 :")
+                        }
+                        spacer
+                        
+                        text {
+                            style (Detail_L)
+                            value ("#{value (menstruation_info.mens_startdate)}")
+                        }
+                    }
+                    
+                    single-line {
+                        text {
+                            style (Detail_L_Soft)
+                            value ("월경 종료 날짜 :")
+                        }
+                        spacer
+                        
+                        text {
+                            style (Detail_L)
+                            value ("#{value (menstruation_info.mens_enddate)}")
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+train (t-u6vxws53k46o776hy44cjv9uh) {
+  utterance ("[g:GetCityOAGInfo] (주변)[v:City] (산부인과)[v:OAGvocab:OAGvocabs] (갈)[v:Searchword:Searchwords]래")
+  plan (Y2BlEEnLL6rML9UDUrmpes6ZJZX+ju4M0iii7qklUAnPvLR8BkEMLQyiKEJAhWX5yYlJDOIowsGpiUXJGeX5RSkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1573040770592)
+}
+train (t-ub9tbt5w4oveiua02dh7zue6c) {
+  utterance ("[g:foryou.forme.RecentSearch] 생리통 완화 (체조)[v:foryou.forme.Keyword] (검색)[v:foryou.forme.showVideo:showVideos]")
+  plan (Y2BhkEzLL6rML9UDUrmpekGpyal5JcGpiUXJGQxyKFIQQYiCsMyU1HwGERR579TK8vyiFAYxFNHijPxyiGpmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1573037900366)
+}
+train (t-uxy4s64g3vajc0gj92lklvayo) {
+  utterance ("[g:informationFood] (계란)[v:Food]은 나빠 좋아")
+  plan (Y2BmEE/LL6rML9UDUrmpem75+SlBqcWlOSUMMigSmXkgOrEkMz8PpIZBEEMbAxMDIxAzAElGBhCA8gE=)
+  last-modified (1572358045688)
+}

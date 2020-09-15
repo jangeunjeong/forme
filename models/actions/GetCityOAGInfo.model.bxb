@@ -1,0 +1,59 @@
+action (GetCityOAGInfo) {
+	description (산부인과 정보를 가져옴)
+	type (Search)
+	
+	collect {
+		input (oagvocab) {
+			type (OAGvocab)
+			min (Required) max (One)
+		}
+		input (city) {
+			type (City)
+			min (Required) max (One)
+		}
+		input (sigungu) {
+			type (Sigungu)
+			min (Optional) max (One)
+		}
+		
+		input (sword) {
+			type (Searchword)
+			min (Required) max (One)
+		}
+
+
+		computed-input (point) {
+			type (Point)
+			min (Required) max (One)
+			compute {
+				intent {
+					goal : Point
+					route : geo.CurrentLocation
+				}
+			}
+		}
+		
+		input (pointaddr) {
+			type (geo.GeocodedAddress)
+			
+			default-init{
+				if($user.currentLocation.$exists){
+					intent{
+						goal: geo.GeoPoint
+						value-set: geo.CurrentLocation {$expr ($user.currentLocation)}
+					}
+				}
+			}
+		}
+	}
+	
+	output (CityOAG) {
+		on-empty {
+			halt {
+				dialog {
+					template ("해당 위치에는 공공데이터에 등록된 산부인과가 없습니다.")
+				}
+			}
+		}
+	}
+}

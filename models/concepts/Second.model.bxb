@@ -1,0 +1,6 @@
+text (Second) {
+  description (두번째 메세지 발화)
+    features {
+    transient
+  }
+}

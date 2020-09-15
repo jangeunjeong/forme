@@ -1,0 +1,18 @@
+structure (Forme_user) {
+  description (사용자 정보)
+  property (user_id) {
+    type (User_id)
+    min (Required) max (One)
+  }
+  property (mens_period) {
+    type (Mens_period)
+    min (Required) max (One)
+  }
+  property (mens_term) {
+    type (Mens_term)
+    min (Required) max (One)
+  }
+    features {
+    transient
+  }
+}

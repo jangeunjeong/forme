@@ -1,0 +1,34 @@
+layout-macro-def(loveRegi-result) {
+	params {
+		param (love_info) {
+			type (Love_info)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		
+		section {
+			content {
+				if("size(love_info) > 0"){
+					title-area {
+						slot1 {
+							text {
+								value {
+									template ("사용자님의 사랑일이 등록되었습니다.")
+								}
+							}
+						}
+					}
+					paragraph {
+						value {
+							template ("사랑일 날짜 : #{value (love_info.love_date)}")
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}
